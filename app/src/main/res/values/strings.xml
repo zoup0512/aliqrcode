@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">自动生成支付宝收款码工具V1.0</string>
+    <string name="start_additional_function">开启辅助功能</string>
+    <string name="use_tip">用户须知</string>
+    <string name="open_additional_function_service">本软件需要开启辅助功能才能使用</string>
+    <string name="open_function">打开辅助功能</string>
+    <string name="open_alipay">打开支付宝</string>
+    <string name="uninstall_alipay">未安装支付宝</string>
+    <string name="no_permissions">未授予本软件权限</string>
+    <string name="text_info">此程序为自动生成支付宝二维码工具，开启服务需要辅助功能支持</string>
+    <string name="open_service">打开/关闭 自动生成支付宝二维码</string>
+    <string name="str_log">以下为运行程序时打印出来的部分log，完整log文件在/aliqrcode_log/*目录下
+        \n---------------------------------------------------------------------</string>
+    <string name="accessibility_description">自动生成支付宝二维码</string>
+    <string name="alipay_autoservice_running">二维码无障碍服务</string>
+    <string name="error_account">该支付宝账户的二维码已经生成完毕</string>
+    <string name="str_step_one">步骤一</string>
+    <string name="str_step_two">步骤二</string>
+    <string name="str_input_alipay_amount">请输入要生成二维码的支付金额</string>
+    <string name="str_submit">确定</string>
+</resources>

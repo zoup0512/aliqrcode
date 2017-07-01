@@ -1,0 +1,35 @@
+ext {
+
+    android = [
+            compileSdkVersion        : 26,
+            buildToolsVersion        : "26.0.0",
+            applicationId            : "com.zhoup.android.aliqrcode",
+            minSdkVersion            : 18,
+            targetSdkVersion         : 26,
+            versionCode              : 1,
+            versionName              : "1.0",
+            testInstrumentationRunner: "android.support.test.runner.AndroidJUnitRunner"
+    ]
+
+    dependencies = [
+            "appcompat-v7"            : 'com.android.support:appcompat-v7:26.+',
+            "recyclerview-v7"         : 'com.android.support:recyclerview-v7:26.+',
+            "design"                  : 'com.android.support:design:26.+',
+            "glide"                   : 'com.github.bumptech.glide:glide:3.7.0',
+            "retrofit"                : 'com.squareup.retrofit2:retrofit:2.1.0',
+            "logging-interceptor"     : 'com.squareup.okhttp:logging-interceptor:2.6.0',
+            "converter-gson"          : 'com.squareup.retrofit2:converter-gson:2.1.0',
+            "adapter-rxjava"          : 'com.squareup.retrofit2:adapter-rxjava:2.1.0',
+            "rxbinding"               : 'com.jakewharton.rxbinding:rxbinding:0.4.0',
+            "rxjava"                  : 'io.reactivex:rxjava:1.2.0',
+            "rxandroid"               : 'io.reactivex:rxandroid:1.2.1',
+            "rxpermissions"           : 'com.tbruyelle.rxpermissions:rxpermissions:0.8.0@aar',
+            "eventbus"                : 'org.greenrobot:eventbus:3.0.0',
+            "zxing"                   : 'com.google.zxing:core:3.3.0',
+            "butterknife"             : 'com.jakewharton:butterknife:8.4.0',
+            "butterknife-compiler"    : 'com.jakewharton:butterknife-compiler:8.4.0',
+            "leakcanary-android"      : 'com.squareup.leakcanary:leakcanary-android:1.5',
+            "leakcanary-android-no-op": 'com.squareup.leakcanary:leakcanary-android-no-op:1.5',
+            "junit"                   : 'junit:junit:4.12'
+    ]
+}
